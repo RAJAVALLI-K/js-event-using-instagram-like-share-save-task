@@ -3,23 +3,32 @@
     margin: 0;
 }
 
+
 .container {
-    width: 80%;
-    padding: 30px 30px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff0099, #4fd0d4);
+    height: 100vh;
+}
+
+.row {
+    background-color: white;
+    border-radius: 10px;
 }
 
 .img {
     height: 300px;
     width: 300px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #sharediv {
     position: relative;
     overflow: hidden;
-    box-shadow: 2px 2px 10px #ccc;
     height: 380px;
     width: 300px;
-    border-radius: 10px;
 }
 
 #send-div {
