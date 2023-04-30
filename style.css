@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    padding: 30px 30px 20px;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+}
+
+#sharediv {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px #ccc;
+    height: 380px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#send-div {
+    position: absolute;
+    top: 100%;
+    background-color: #eeeeeebf;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    transition: all 1s;
+}
+
+#send-div p {
+    position: relative;
+    padding: 10px;
+    font-weight: 900;
+}
+
+#send-div i {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#close-btn {
+    padding: 10px;
+}
+
+/* like */
+.instagram {
+    padding: 30px;
+}
+
+.like p {
+    padding: 10px 0px;
+}
+
+.fa-solid {
+    color: red;
+    display: none;
+}
+
+.para {
+    padding: 0px 10px;
+}
+
+i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#icon-paper {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon-paper div {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+/* saved */
+.fa-bookmark {
+    position: relative;
+}
+
+.fa-solid .fa-bookmark {
+    display: none;
+}
+
+#dark-bookmark {
+    color: black;
+}
+
+.save-collection {
+    background-color: #0e0d0d;
+    color: white;
+    position: absolute;
+    width: 300px;
+    bottom: 80px;
+    display: none;
+}
+
+.save-collection div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.iconsss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
